@@ -16,7 +16,7 @@ function HomePage() {
         </nav>
       </header>
       <section className="mt-16 px-8">
-        <h1 className="text-8xl py-4 font-extrabold bg-clip-text bg-gradient-to-r text-transparent from-stone-700 via-stone-300 to-stone-700">
+        <h1 className="text-8xl pb-4 font-extrabold bg-clip-text bg-gradient-to-r text-transparent from-stone-700 via-stone-300 to-stone-700">
           Code. Innovate. Emerge.
         </h1>
         <p className="text-stone-500">
