@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import Button from "@/components/ui/button";
+
 function HomePage() {
   return (
     <main>
@@ -8,10 +10,13 @@ function HomePage() {
           <Link href={"/"} className="text-lg font-semibold">
             Emersion
           </Link>
+          <Link href={"/sign-up"}>
+            <Button>Get Started</Button>
+          </Link>
         </nav>
       </header>
       <section className="mt-16 px-8">
-        <h1 className="text-8xl py-6 font-extrabold bg-clip-text bg-gradient-to-r text-transparent from-stone-700 via-stone-300 to-stone-700">
+        <h1 className="text-8xl py-4 font-extrabold bg-clip-text bg-gradient-to-r text-transparent from-stone-700 via-stone-300 to-stone-700">
           Code. Innovate. Emerge.
         </h1>
         <p className="text-stone-500">
