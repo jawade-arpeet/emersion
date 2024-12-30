@@ -20,10 +20,10 @@ function HomePage() {
           Code. Innovate. Emerge.
         </h1>
         <p className="text-stone-500">
-          Join Emersion, the ultimate coding bootcamp, where you'll transform
-          your passion for technology into a professional career. Dive deep into
-          immersive learning and emerge with the skills to lead in the tech
-          industry.
+          Join Emersion, the ultimate coding bootcamp, where you&apos;ll
+          transform your passion for technology into a professional career. Dive
+          deep into immersive learning and emerge with the skills to lead in the
+          tech industry.
         </p>
       </section>
     </main>
