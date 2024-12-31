@@ -10,9 +10,14 @@ function HomePage() {
           <Link href={"/"} className="text-lg font-semibold">
             Emersion
           </Link>
-          <Link href={"/sign-up"}>
-            <Button>Get Started</Button>
-          </Link>
+          <div className="flex items-center gap-x-4">
+            <Link href={"/sign-in"}>
+              <Button variant="outline">Login</Button>
+            </Link>
+            <Link href={"/sign-up"} passHref={true}>
+              <Button>Get Started</Button>
+            </Link>
+          </div>
         </nav>
       </header>
       <section className="mt-16 px-8">
